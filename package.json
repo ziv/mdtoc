@@ -1,0 +1,41 @@
+{
+  "name": "mdtoc",
+  "version": "0.0.1",
+  "description": "Table of content generator for markdown files",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "bin": {
+    "mtdoc": "lib/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziv/mdtoc.git"
+  },
+  "keywords": [
+    "markdown",
+    "md",
+    "toc",
+    "content",
+    "bin",
+    "cli"
+  ],
+  "author": "ziv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ziv/mdtoc/issues"
+  },
+  "homepage": "https://github.com/ziv/mdtoc#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.9",
+    "@types/node": "^13.13.15",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "commander": "^6.0.0",
+    "get-stdin": "^8.0.0"
+  }
+}
