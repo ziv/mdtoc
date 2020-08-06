@@ -1,6 +1,7 @@
 # mdtoc
 Table of content generator for markdown files.
 
+
 Install:
 ```shell script
 npm i mdtoc
